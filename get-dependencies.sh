@@ -8,13 +8,13 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
   cmake \  
-  gtk3 \
-  webkit2gtk-4.1 \
-  openssl \
-  appmenu-gtk-module \
-  libappindicator-gtk3 \
-  librsvg \
-  libvips
+#  gtk3 \
+#  webkit2gtk-4.1 \
+#  openssl \
+#  appmenu-gtk-module \
+#  libappindicator-gtk3 \
+#  librsvg \
+#  libvips
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
