@@ -8,7 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
   cmake \
-  gcc \
+  rust \
   cargo \
   nodejs \ 
   yarn \ 
