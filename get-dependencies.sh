@@ -9,7 +9,6 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
   cmake \
   gcc \
-  file \ 
   cargo \
   nodejs \ 
   yarn \ 
