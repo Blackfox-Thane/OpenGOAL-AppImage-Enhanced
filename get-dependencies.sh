@@ -9,8 +9,7 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
   cmake \
   rust \
-  cargo \
-  nodejs \ 
+  cargo \ 
   yarn \ 
   npm \
   gtk3 \
