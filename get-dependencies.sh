@@ -7,7 +7,13 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-  cmake
+  cmake \
+  gcc \
+  file \ 
+  cargo \
+  nodejs \ 
+  yarn \ 
+  npm
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
