@@ -13,7 +13,14 @@ pacman -Syu --noconfirm \
   cargo \
   nodejs \ 
   yarn \ 
-  npm
+  npm \
+  gtk3 \
+  webkit2gtk-4.1 \
+  openssl \
+  appmenu-gtk-module \
+  libappindicator-gtk3 \
+  librsvg \
+  libvips
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
