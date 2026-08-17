@@ -6,8 +6,11 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-#pacman -Syu --noconfirm \
-#  cmake \  
+pacman -Syu --noconfirm \
+    cmake    \
+    glew     \
+    libdecor \
+    sdl2 
 #  gtk3 \
 #  webkit2gtk-4.1 \
 #  openssl \
