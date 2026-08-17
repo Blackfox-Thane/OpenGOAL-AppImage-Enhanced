@@ -10,7 +10,8 @@ pacman -Syu --noconfirm \
     cmake    \
     glew     \
     libdecor \
-    sdl2 
+    sdl2     \
+    zlib
 #  gtk3 \
 #  webkit2gtk-4.1 \
 #  openssl \
