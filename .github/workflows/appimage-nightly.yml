@@ -1,7 +1,7 @@
 name: Anylinux-AppImage (Nightly)
 concurrency:
   group: build-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 on:
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # comment these two out to enable nightly builds, This sets the variable DEVEL_RELEASE=1 for  #
